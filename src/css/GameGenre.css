@@ -1,0 +1,13 @@
+.game-genre {
+    margin: 20px;
+  }
+  
+  .game-genre h3 {
+    text-align: center;
+  }
+  
+  .game-icons {
+    display: flex;
+    justify-content: center;
+  }
+  

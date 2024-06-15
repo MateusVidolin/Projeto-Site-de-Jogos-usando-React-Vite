@@ -1,0 +1,29 @@
+.help-icon-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .help-icon {
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .explanation {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

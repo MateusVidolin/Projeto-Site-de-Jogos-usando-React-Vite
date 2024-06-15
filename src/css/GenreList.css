@@ -1,0 +1,81 @@
+
+
+.genre-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.genre-list h2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 200PX;
+  font-size: 1.5em;
+}
+
+.game-genre {
+  margin: 20px;
+  text-align: center;
+}
+
+.game-genre h3 {
+  text-align: center;
+}
+
+.game-icon {
+  margin: 200px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.game-icon:hover {
+  transform: scale(1.1);
+}
+
+.game-icon img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.help-icon {
+  display: inline-block;
+  position: relative;
+  margin-left: 5px;
+}
+
+.game-icon-wrapper {
+  text-align: center; /* Centraliza horizontalmente */
+  margin-bottom: 20px; /* Espaçamento inferior entre os ícones */
+}
+
+.game-name {
+  position: relative;
+  top: -200px; /* Ajuste fino para cima ou para baixo conforme necessário */
+  font-size: 14px; /* Tamanho da fonte */
+  color: #333333; /* Cor do texto */
+}
+
+.help-icon span {
+  cursor: pointer;
+}
+
+.help-icon-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  top: 20px;
+  left: 0;
+  z-index: 1;
+  font-size: 0.5em;
+}
+
+.help-icon:hover .help-icon-content {
+  display: block;
+}

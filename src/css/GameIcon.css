@@ -1,0 +1,10 @@
+.game-icon {
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .game-icon img {
+    width: 100px;
+    height: 100px;
+  }
+  

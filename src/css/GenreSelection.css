@@ -1,0 +1,64 @@
+.genre-selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .genre-selection h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 250PX ;
+    font-size: 1.5em;
+  }
+  
+  .genre-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .genre-item {
+    margin: 150px;
+    text-align: center;
+  }
+  
+  .genre-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .genre-item img:hover {
+    transform: scale(1.1);
+  }
+  
+  .help-icon {
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
+  }
+  
+  .help-icon span {
+    cursor: pointer;
+  }
+  
+  .help-icon-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    top: 20px;
+    left: 0;
+    z-index: 1;
+    font-size: 0.8em;
+  }
+  
+  .help-icon:hover .help-icon-content {
+    display: block;
+  }
+  

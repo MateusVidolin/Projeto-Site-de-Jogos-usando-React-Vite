@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body.protected-page {
+  background-color: white;
+}
+
+.app {
+  text-align: center;
+}
